@@ -496,7 +496,7 @@ Not all the hooks have been documented yet. ( [help needed! &#128568;](https://d
             def agent_allowed_tools(allowed_tools, cat):
                 # let's assume there is a tool we always want to give the agent
                 # add the tool name in the list of allowed tools
-                allowed_tools.append("blasting_hacking_tool")
+                allowed_tools.add("blasting_hacking_tool")
 
                 return allowed_tools
             ```
